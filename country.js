@@ -22,8 +22,8 @@ class Country {
 }
 
 let usa = new Country("USA", "Murican", "Why Hello there world! Have some McDonalds", ["red", "white", "blue"], "https://www.pngmart.com/files/17/USA-Flag-PNG-Transparent-Image.png");
-let mexico = new Country("Mexico", "Spanish", "Hola mundo!", ["red", "white", "green"], "https://www.pngmart.com/files/22/Mexico-Flag-PNG-Isolated-Image.png");
-let algeria = new Country("Algeria", "Arabic and Berber", "Sup", ["blue", "yellow", "red"], "https://www.pngmart.com/files/22/Algeria-Flag-PNG-Isolated-Photos.png");
+let mexico = new Country("Mexico", "Spanish", "Hola Mundo!", ["red", "white", "green"], "https://www.pngmart.com/files/22/Mexico-Flag-PNG-Isolated-Image.png");
+let algeria = new Country("Algeria", "Arabic and Berber", "marhaban bialealam", ["blue", "yellow", "red"], "https://www.pngmart.com/files/22/Algeria-Flag-PNG-Isolated-Photos.png");
 
 function switchCountry() {
     let input = document.getElementById("CountryList").value;
